@@ -33,7 +33,7 @@ This project is a backend application for user authentication and organization m
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/sethdanny/user-auth-organisation.git
+   git clone https://github.com/Habiba-halkano/userAuthentication.git
    cd user-auth-organisation
 
 2. Install dependencies:
@@ -49,7 +49,7 @@ npx sequelize-cli db:migrate
 
 5. Start the server:
 npm start
-The server should now be running on `http://localhost:3000`.
+The server should now be running on `http://localhost:5000`.
 
 ## API Endpoints
 ### Auth Endpoints
@@ -79,8 +79,6 @@ The server should now be running on `http://localhost:3000`.
   }
 }`
 
-### Documentation
-* Postman - https://documenter.getpostman.com/view/27746757/2sA3e1BA6a
 ## Website:
-https://user-auth-organisation-production.up.railway.app/
+https://userauthentication-production-bd2f.up.railway.app
 
