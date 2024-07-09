@@ -61,11 +61,9 @@ const register = async (req, res) => {
       },
     });
   } catch (error) {
-    console.log(error);
     return res.status(400).json({
-      message:error.message, 
       status: 'Bad request',
-      // message: 'Registration unsuccessful',
+      message: 'Registration unsuccessful',
       statusCode: 400,
     });
 }
