@@ -6,7 +6,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 
-const sequelize = new Sequelize("postgresql://postgres.bhnswxksimbnzqiagxdg:seth_daniels12@@aws-0-us-east-1.pooler.supabase.com:6543/postgres", {
+const sequelize = new Sequelize("postgresql://postgres.lowhymbjitbxjglqzaok:Shakiti@19!@aws-0-eu-central-1.pooler.supabase.com:6543/postgres", {
   dialect: 'postgres',
   protocol: 'postgres',
   dialectOptions: {
